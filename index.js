@@ -32,7 +32,7 @@ fs.createReadStream('./kepler_data.csv')
 	.on('error', (err) => {
 		console.error('Error ==>', err);
 	})
-	.on('close', () => {
+	.on('end', () => {
 		console.log('-----------------------');
 		console.log('Habitable planets');
 		logHabitablePlanetsName(habitablePlanets);
