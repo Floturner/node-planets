@@ -1,0 +1,16 @@
+{
+	"name": "node-planets",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "Florent Taboukouna",
+	"license": "ISC",
+	"dependencies": {
+		"csv-parse": "^5.3.5"
+	}
+}
